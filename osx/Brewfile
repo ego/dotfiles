@@ -1,0 +1,36 @@
+cask_args appdir: "/Applications"
+
+# Taps
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+
+# Formulae
+brew "coreutils"
+brew "moreutils"
+brew "findutils"
+brew "git"
+brew "brew-cask-completion"
+brew "tree"
+brew "ack"
+brew "pandoc"
+brew "jq"
+brew "watch"
+brew "htop"
+brew "p7zip"
+brew "fselect"
+brew "ripgrep"
+brew "imagemagick", args: ["with-webp"]
+# TODO: aspell terraform the_silver_searcher
+
+# Cask
+cask "cakebrew"
+cask "dash"
+cask "db-browser-for-sqlite"
+cask "firefox"
+cask "google-chrome"
+cask "gimp"
+cask "ngrok"
+cask "unetbootin"
+cask "wireshark"
+cask "skype"
+cask "adobe-acrobat-reader"

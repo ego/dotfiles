@@ -1,0 +1,10 @@
+brew "zsh"
+# Install zsh utils
+brew "zsh-completions"
+brew "zsh-syntax-highlighting"
+brew "zsh-autosuggestions"
+brew "zsh-history-substring-search"
+# for dir jumps
+brew "z"
+# Install https://github.com/zplug/zplug
+brew "zplug"
