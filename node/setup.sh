@@ -2,8 +2,7 @@
 
 echo "node setup ..."
 
-brew bundle --file ./Brewfile
-brew cleanup
+brew bundle --file=Brewfile
 
 echo "$(node --version)"
 echo "$(npm --version)"

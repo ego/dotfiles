@@ -2,3 +2,5 @@
 brew "python3"
 brew "django-completion"
 brew "pip-completion"
+
+cleanup

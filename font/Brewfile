@@ -6,3 +6,5 @@ cask "font-source-code-pro"
 
 # font Source Code Pro
 # https://github.com/powerline/fonts/tree/master/SourceCodePro
+
+cleanup

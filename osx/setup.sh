@@ -3,14 +3,17 @@
 echo "osx setup ..."
 
 # Install xcode
-xcode-select --install
+if [[ ! $(xcode-select -p) ]]; then
+    xcode-select --install
+fi
 
 ## Install homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+if [[ ! $(which brew) ]]; then
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
 
 # https://github.com/felixjung/dotfiles/blob/master/homebrew/Brewfile
-brew bundle --file ./Brewfile
-brew cleanup
+brew bundle --file=Brewfile
 
 success "Successfully installed osx."
 exit

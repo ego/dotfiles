@@ -1,1 +1,4 @@
+brew "emacs", args: ["HEAD", "with-cocoa", "with-ctags", "with-dbus", "with-imagemagick@6", "with-librsvg", "with-modules"]
 brew "cask"
+
+cleanup

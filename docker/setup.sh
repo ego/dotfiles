@@ -2,8 +2,7 @@
 
 echo "docker setup ..."
 
-brew bundle --file ./Brewfile
-brew cleanup
+brew bundle --file=Brewfile
 
 echo "$(docker --version)"
 echo "$(docker run hello-world)"

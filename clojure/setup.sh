@@ -2,8 +2,7 @@
 
 echo "clojure setup ..."
 
-brew bundle --file ./Brewfile
-brew cleanup
+brew bundle --file=Brewfile
 
 echo "$(javac --version)"
 echo "$(clojure --version)"

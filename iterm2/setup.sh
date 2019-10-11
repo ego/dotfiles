@@ -2,8 +2,7 @@
 
 echo "iterm2 setup ..."
 
-brew bundle --file ./Brewfile
-brew cleanup
+brew bundle --file=Brewfile
 
 # Fix login message in terminal
 touch ~/.hushlogin

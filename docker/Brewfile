@@ -1,8 +1,10 @@
-cask_args appdir: "/Applications"
-cask "docker"
-
 # Install docker https://docs.docker.com/docker-for-mac/
 brew "docker"
 brew "docker-compose"
 brew "docker-completion"
 brew "docker-compose-completion"
+
+cask_args appdir: "/Applications"
+cask "docker"
+
+cleanup

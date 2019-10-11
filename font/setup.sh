@@ -1,7 +1,6 @@
 echo "font setup ..."
 
-brew bundle --file ./Brewfile
-brew cleanup
+brew bundle --file=Brewfile
 
 success "Successfully installed font."
 exit

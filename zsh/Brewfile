@@ -8,3 +8,5 @@ brew "zsh-history-substring-search"
 brew "z"
 # Install https://github.com/zplug/zplug
 brew "zplug"
+
+cleanup

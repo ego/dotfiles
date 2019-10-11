@@ -2,8 +2,7 @@
 
 echo "zsh setup ..."
 
-brew bundle --file ./Brewfile
-brew cleanup
+brew bundle --file=Brewfile
 
 echo $($SHELL --version)
 # Make zsh default shell

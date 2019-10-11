@@ -1,0 +1,40 @@
+# build
+brew "coreutils"
+brew "moreutils"
+brew "gnutls"
+brew "openssl"
+brew "opencv"
+brew "imagemagick"
+brew "ghostscript"
+
+# dev
+brew "git"
+brew "htop"
+brew "rlwrap"
+brew "tree"
+brew "jq"
+brew "watch"
+brew "pandoc"
+
+# find-search utils
+brew "findutils"
+brew "ack"
+brew "fselect"
+brew "ripgrep"  # the_silver_searcher
+brew "telnet"
+brew "wget"
+
+# devops
+brew "kubernetes-cli"
+brew "terraform"
+brew "mitmproxy"
+
+# Cask
+cask_args appdir: "/Applications"
+
+cask "dash"
+cask "db-browser-for-sqlite"
+cask "ngrok"
+cask "wireshark"
+
+cleanup
