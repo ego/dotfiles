@@ -708,7 +708,7 @@
 	<key>MinimalTabStyleOutlineStrength</key>
 	<real>0.019999999552965164</real>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Jupiter/src/dotfiles/iterm2/Colors</string>
+	<string>~/</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -1388,7 +1388,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/0x7c48</string>
+			<string>~/</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -2293,7 +2293,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/0x7c48</string>
+			<string>~/</string>
 		</dict>
 	</array>
 	<key>NoSyncAllAppVersions</key>
@@ -3063,7 +3063,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/0x7c48/Jupiter/src/dotfiles/iterm2/Preferences</string>
+	<string>https://raw.githubusercontent.com/ego/dotfiles/master/iterm2/Preferences/com.googlecode.iterm2.plist</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
