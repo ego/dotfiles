@@ -3,12 +3,9 @@
 echo "emacs setup ..."
 
 brew bundle --file ./Brewfile
-echo "$(emacs --version)"
-
-brew update
-brew upgrade
-brew doctor
 brew cleanup
+
+echo "$(emacs --version)"
 
 success "Successfully installed emacs."
 exit

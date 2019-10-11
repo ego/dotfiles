@@ -10,9 +10,6 @@ xcode-select --install
 
 # https://github.com/felixjung/dotfiles/blob/master/homebrew/Brewfile
 brew bundle --file ./Brewfile
-brew update
-brew upgrade
-brew doctor
 brew cleanup
 
 success "Successfully installed osx."

@@ -3,9 +3,6 @@
 echo "zsh setup ..."
 
 brew bundle --file ./Brewfile
-brew update
-brew upgrade
-brew doctor
 brew cleanup
 
 echo $($SHELL --version)

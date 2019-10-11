@@ -3,9 +3,6 @@
 echo "clojure setup ..."
 
 brew bundle --file ./Brewfile
-brew update
-brew upgrade
-brew doctor
 brew cleanup
 
 echo "$(javac --version)"
