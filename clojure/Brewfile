@@ -1,0 +1,6 @@
+cask_args appdir: "/Applications"
+cask "java"
+cask "java8"
+
+brew "clojure"
+brew "leiningen"

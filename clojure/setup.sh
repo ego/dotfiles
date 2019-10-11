@@ -1,12 +1,16 @@
+#!/usr/bin/env sh
+
 echo "clojure setup ..."
 
-brew cask install java \
-				  java8
+brew bundle --file ./Brewfile
+brew update
+brew upgrade
+brew doctor
+brew cleanup
+
 echo "$(javac --version)"
-
-brew install clojure
-brew upgrade clojure
 echo "$(clojure --version)"
-
-brew install leiningen
 echo "$(lein --version)"
+
+success "Successfully installed clojure."
+exit
