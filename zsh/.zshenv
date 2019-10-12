@@ -1,7 +1,9 @@
 # https://unix.stackexchange.com/questions/71253/what-should-shouldnt-go-in-zshenv-zshrc-zlogin-zprofile-zlogout
 
 # Base
+export LC_ALL="en_US.UTF-8"
 export LANG='en_US.UTF-8'
+
 export TERM="xterm-256color"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"

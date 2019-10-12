@@ -23,7 +23,7 @@ zplug "plugins/gem", from:oh-my-zsh
 zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-completions"
-zplug "zsh-users/zsh-autosuggestions", at:develop
+# zplug "zsh-users/zsh-autosuggestions", at:develop
 zplug "zsh-users/zsh-history-substring-search"
 zplug "plugins/history", from:oh-my-zsh
 # alias-finder "git pull"
@@ -35,7 +35,7 @@ zplug "plugins/web-search", from:oh-my-zsh
 zplug "plugins/encode64", from:oh-my-zsh
 zplug "plugins/node", from:oh-my-zsh
 zplug "plugins/npm", from:oh-my-zsh
-zplug "plugins/yarn", from:oh-my-zsh
+# zplug "plugins/yarn", from:oh-my-zsh
 # emoji
 zplug "b4b4r07/emoji-cli", on:"stedolan/jq"
 # docker/aws/k8s

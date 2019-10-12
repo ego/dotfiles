@@ -7,7 +7,10 @@ echo "emacs setup ..."
 source ../lib.sh
 
 brew bundle install --file=Brewfile
-brew linkapps emacs-plus
+brew link emacs
+# ln -s /usr/local/Cellar/emacs-plus/26.3/Emacs.app /Applications
+# ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications
+# ln -s /usr/local/opt/emacs-plus/bin/emacs /usr/local/bin/emacs-27
 
 echo "$(emacs --version)"
 
