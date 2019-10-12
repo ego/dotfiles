@@ -1,10 +1,8 @@
 cask_args appdir: "/Applications"
 
 # https://github.com/Homebrew/homebrew-cask-fonts/tree/master/Casks
-tap "caskroom/fonts"
+tap "homebrew/cask-fonts"
 cask "font-source-code-pro"
 
 # font Source Code Pro
 # https://github.com/powerline/fonts/tree/master/SourceCodePro
-
-cleanup

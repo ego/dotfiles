@@ -1,6 +1,10 @@
 #!/usr/bin/env sh
 
+set -e  # exit when any command fails
+
 echo "osx setup ..."
+
+source ../lib.sh
 
 # Install xcode
 if [[ ! $(xcode-select -p) ]]; then
@@ -13,7 +17,5 @@ if [[ ! $(which brew) ]]; then
 fi
 
 # https://github.com/felixjung/dotfiles/blob/master/homebrew/Brewfile
-brew bundle --file=Brewfile
-
+brew bundle install --file=Brewfile
 success "Successfully installed osx."
-exit

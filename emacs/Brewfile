@@ -1,4 +1,17 @@
-brew "emacs", args: ["HEAD", "with-cocoa", "with-ctags", "with-dbus", "with-imagemagick@6", "with-librsvg", "with-modules"]
-brew "cask"
+# https://github.com/d12frosted/homebrew-emacs-plus
+# brew info emacs-plus
 
-cleanup
+tap "d12frosted/emacs-plus"
+
+brew "emacs-plus", args: [
+        "with-ctags", 
+        "with-dbus", 
+        "with-modern-icon", 
+        "with-jansson",
+        "without-spacemacs-icon",
+        # "with-x11",
+        # "with-xwidgets",
+        "HEAD"
+    ]
+
+brew "cask"

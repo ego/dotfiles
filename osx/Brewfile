@@ -12,6 +12,8 @@ brew "p7zip"
 brew "zip"
 brew "fd"
 brew "fdupes"
+brew "ffmpeg"
+
 # TODO: aspell
 
 # Cask
@@ -24,5 +26,3 @@ cask "gimp"
 cask "unetbootin"
 cask "skype"
 cask "adobe-acrobat-reader"
-
-cleanup

@@ -21,4 +21,4 @@ Pygments
 requests
 scapy
 
-aws-shell
+# aws-shell

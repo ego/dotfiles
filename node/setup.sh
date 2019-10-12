@@ -1,11 +1,14 @@
 #!/usr/bin/env sh
 
+set -e  # exit when any command fails
+
 echo "node setup ..."
 
-brew bundle --file=Brewfile
+source ../lib.sh
 
-echo "$(node --version)"
-echo "$(npm --version)"
+brew bundle install --file=Brewfile
+
+echo "node: $(node --version)"
+echo "npm: $(npm --version)"
 
 success "Successfully installed node."
-exit

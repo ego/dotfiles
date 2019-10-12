@@ -4,5 +4,3 @@ cask "java8"
 
 brew "clojure"
 brew "leiningen"
-
-cleanup

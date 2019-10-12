@@ -4,6 +4,7 @@
 export LANG='en_US.UTF-8'
 export TERM="xterm-256color"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/usr/local/sbin:$PATH"
 export MANPATH="/usr/local/man:$MANPATH"
 
 # Browser
@@ -22,3 +23,5 @@ export VISUAL='vim'
  else
    export EDITOR='mvim'
  fi
+
+export PATH="$HOME/.cargo/bin:$PATH"

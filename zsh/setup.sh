@@ -1,23 +1,34 @@
 #!/usr/bin/env sh
 
+set -e  # exit when any command fails
+
 echo "zsh setup ..."
 
-brew bundle --file=Brewfile
+source ../lib.sh
+
+brew bundle install --file=Brewfile
 
 echo $($SHELL --version)
+
 # Make zsh default shell
-chsh -s $(which zsh)
+if [[ ! $SHELL == "/bin/zsh" ]]; then
+    chsh -s /bin/zsh
+fi
 
-cp ./zshenv $HOME/.zshenv
+# oh-my-zsh
+if [[ ! -s $HOME/.oh-my-zsh/oh-my-zsh.sh ]]; then
+	echo "oh-my-zsh setup ..."
+	curl -sSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+	success "Successfully installed oh-my-zsh."
+fi
 
-source ../oh-my-zsh/setup.sh
+echo "copy .zshenv ..."
+cp .zshenv $HOME/
 
-# add custom zshrc.sh
-cp zshrc.sh $HOME/.zshrc.sh
-echo "source $(HOME)/.zshrc.sh" >> $HOME/.zshrc
+echo "copy .zshrc ..."
+cp .zshrc $HOME/
 
-# Load zplug
-source ./zplug.sh
+echo "copy zplug.sh ..."
+cp .zplug $HOME/
 
 success "Successfully installed zsh."
-exit

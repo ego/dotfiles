@@ -1,6 +1,3 @@
-brew "cargo-completion"
-
+# brew "cargo-completion"
 # https://starship.rs
 # brew "starship" 
-
-cleanup

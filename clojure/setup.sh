@@ -1,12 +1,16 @@
 #!/usr/bin/env sh
 
+set -e  # exit when any command fails
+
 echo "clojure setup ..."
 
-brew bundle --file=Brewfile
+source ../lib.sh
 
+brew bundle install --file=Brewfile
+
+echo "$(java -version)"
 echo "$(javac --version)"
-echo "$(clojure --version)"
 echo "$(lein --version)"
+echo "clojure: $(clojure -e '(clojure-version)')"
 
 success "Successfully installed clojure."
-exit

@@ -15,6 +15,7 @@ brew "tree"
 brew "jq"
 brew "watch"
 brew "pandoc"
+brew "ssh-copy-id"
 
 # find-search utils
 brew "findutils"
@@ -23,6 +24,7 @@ brew "fselect"
 brew "ripgrep"  # the_silver_searcher
 brew "telnet"
 brew "wget"
+brew "wireshark"
 
 # devops
 brew "kubernetes-cli"
@@ -35,6 +37,3 @@ cask_args appdir: "/Applications"
 cask "dash"
 cask "db-browser-for-sqlite"
 cask "ngrok"
-cask "wireshark"
-
-cleanup
