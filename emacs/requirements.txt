@@ -1,0 +1,12 @@
+# python-backend: anaconda
+# https://github.com/pythonic-emacs/anaconda-mode
+jedi>=0.9.0
+json-rpc>=1.8.1
+service_factory>=0.1.5
+
+flake8
+yapf
+black
+autoflake
+importmagic
+epc

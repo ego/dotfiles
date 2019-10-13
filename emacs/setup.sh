@@ -14,4 +14,7 @@ brew link emacs
 
 echo "$(emacs --version)"
 
+# Emacs python-mode
+pip3 install -Ur requirements.txt > /dev/null 2>&1
+
 success "Successfully installed emacs."
