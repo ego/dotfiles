@@ -14,6 +14,11 @@ brew link emacs
 
 echo "$(emacs --version)"
 
+echo "spacemacs setup ..."
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+cp .spacemacs ~/
+echo "After run emacs eval file treemacs.elisp"
+
 # Emacs python-mode
 pip3 install -Ur requirements.txt > /dev/null 2>&1
 
